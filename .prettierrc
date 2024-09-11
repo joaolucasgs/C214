@@ -1,4 +1,29 @@
 {
+  "bracketSpacing": true,
+  "trailingComma": "all",
+  "printWidth": 100,
   "singleQuote": true,
-  "trailingComma": "all"
+  "tabWidth": 2,
+  "semi": true,
+  "importOrder": [
+    "./tracing/config",
+    "reflect-metadata",
+    "<THIRD_PARTY_MODULES>",
+    "^@config/(.*)$",
+    "^@test/(.*)$",
+    "^@providers/(.*)$",
+    "^@auth/(.*)$",
+    "^@database/(.*)$",
+    "^@logs/(.*)$",
+    "^@mail/(.*)$",
+    "^@common/(.*)$",
+    "^@resources/(.*)$",
+    "^@utils/(.*)$",
+    "^@types",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderParserPlugins": ["typescript", "decorators-legacy", "jsx"],
+  "endOfLine": "auto"
 }
